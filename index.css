@@ -5,18 +5,26 @@
 }
 .heading{
   display: inline-block;
-  margin: 0 auto;
+  margin: 8px auto;
   padding: 2px;
   background-color:white;
   width: 80%;
   text-align: center;
 }
+img.heading{
+  padding: 1px;
+}
 .history{
-  margin: auto;
+  margin: 8px auto;
   background-color: white;
   width: 80%;
-  padding: 2px;
+  padding: 6px;
+  text-align: center;
+}
+h2.history{
+  align-items: center;
 }
 #hist{
-  color: #fffff
+  color: black;
+  font-family: 'Courier',sans-serif;
 }
