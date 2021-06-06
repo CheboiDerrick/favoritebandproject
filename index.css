@@ -2,6 +2,10 @@
   width: 100%;
   text-align: center;
   background-image: url(background.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .heading{
   display: inline-block;
@@ -10,16 +14,19 @@
   background-color:white;
   width: 80%;
   text-align: center;
+  border-radius: 10px;
 }
 img.heading{
-  padding: 1px;
+  margin: 5px auto;
+  border-radius: 12px;
 }
 .history{
   margin: 8px auto;
   background-color: white;
   width: 80%;
-  padding: 6px;
+  padding: 6px 12px 12px;
   text-align: center;
+  border-radius: 12px;
 }
 h2.history{
   align-items: center;
@@ -28,26 +35,20 @@ h2.history{
   color: black;
   font-family: 'Courier',sans-serif;
 }
-.items{
+.members{
+  margin: 8px auto;
   background-color: white;
   width: 80%;
-  margin: 8px auto;
-  text-align: center;
-}
-#members{
-    float:left; 
-    background:blue;
-    width:20%;
-    height:280px;
-    margin: 2px auto;
-    padding: 4px;
+  padding: 6px 12px 12px;
+  text-align: left;
+  border-radius: 12px;
 }
 #discography{
-  float:left; 
   background:Green;
   width:30%;
   height:280px;
   margin: 2px;
+  display: inline-block;
 }
 #favorites{
   float:right;
@@ -55,4 +56,8 @@ h2.history{
   width:20%;
   height:280px;
   margin:2px auto;
+  overflow: auto;
+}
+ol.favorites{
+  text-align: left;
 }
