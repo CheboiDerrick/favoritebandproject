@@ -35,7 +35,7 @@ h2.history{
 }
 #hist{
   color: black;
-  font-family: 'Helvetica' 'Courier',sans-serif;
+  font-family: 'Helvetica', 'Courier',sans-serif;
 }
 .members{
   margin: 8px auto;
@@ -46,6 +46,8 @@ h2.history{
   border-radius: 12px;
   align-content: center;
   display: block;
+  font-family: 'Helvetica','Courier', sans-serif;
+  font-style: oblique;
 }
 img.members{
   display:block;
@@ -55,7 +57,7 @@ img.members{
 }
 
 .favorites{
-  margin: 12x auto;
+  margin: 12px auto;
   background-color: white;
   width: 80%;
   padding: 6px 12px 12px;
