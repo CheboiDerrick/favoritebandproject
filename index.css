@@ -28,14 +28,14 @@ img.heading{
   text-align: center;
   border-radius: 12px;
   color:black;
-  font-family: 'Helvetica', 'Courier', sans-serif;
+  font-family: 'Helvetica', 'Courier New', sans-serif;
 }
 h2.history{
   align-items: center;
 }
 #hist{
   color: black;
-  font-family: 'Courier',sans-serif;
+  font-family: 'Helvetica' 'Courier',sans-serif;
 }
 .members{
   margin: 8px auto;
