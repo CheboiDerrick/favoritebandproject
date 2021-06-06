@@ -1,11 +1,11 @@
 .background{
   width: 100%;
-  text-align: center;
   background-image: url(background.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align: center;
 }
 .heading{
   display: inline-block;
@@ -28,7 +28,7 @@ img.heading{
   text-align: center;
   border-radius: 12px;
   color:black;
-  font-family: 'Courier New', 'Courier', sans-serif;
+  font-family: 'Helvetica', 'Courier', sans-serif;
 }
 h2.history{
   align-items: center;
@@ -44,30 +44,23 @@ h2.history{
   padding: 6px 12px 12px;
   text-align:left;
   border-radius: 12px;
-  align-content: left;
+  align-content: center;
+  display: block;
 }
 img.members{
-  display: flex;
+  display:block;
 }
 #bmembers{
   text-align: center;
 }
-.discography{
-  margin: 8px auto;
-  background-color: white;
-  width: 80%;
-  padding: 6px 12px 12px;
-  text-align:left;
-  border-radius: 12px;
-  align-content: left;
-}
+
 .favorites{
-  margin: 8px auto;
+  margin: 12x auto;
   background-color: white;
   width: 80%;
   padding: 6px 12px 12px;
   text-align:left;
-  border-radius: 12px;
+  border-radius: 25px;
   align-content: center;
 }
 #title{
