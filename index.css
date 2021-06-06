@@ -40,24 +40,42 @@ h2.history{
   background-color: white;
   width: 80%;
   padding: 6px 12px 12px;
-  text-align: left;
+  text-align:left;
   border-radius: 12px;
+  align-content: left;
+  flex: p;
 }
-#discography{
-  background:Green;
-  width:30%;
-  height:280px;
-  margin: 2px;
-  display: inline-block;
+#bmembers{
+  text-align: center;
 }
-#favorites{
-  float:right;
-  background:blue;
-  width:20%;
-  height:280px;
-  margin:2px auto;
-  overflow: auto;
+.discography{
+  margin: 8px auto;
+  background-color: white;
+  width: 80%;
+  padding: 6px 12px 12px;
+  text-align:left;
+  border-radius: 12px;
+  align-content: left;
 }
-ol.favorites{
-  text-align: left;
+.favorites{
+  margin: 8px auto;
+  background-color: white;
+  width: 80%;
+  padding: 6px 12px 12px;
+  text-align:center;
+  border-radius: 12px;
+  align-content: center;
+}
+ul.favorites{
+  text-align: center;
+}
+a:link{
+  color: blue;
+}
+a:hover{
+  color: brown;
+  background-color: white;
+}
+a:visited{
+  color: blueviolet;
 }
