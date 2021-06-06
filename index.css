@@ -62,12 +62,15 @@ h2.history{
   background-color: white;
   width: 80%;
   padding: 6px 12px 12px;
-  text-align:center;
+  text-align:left;
   border-radius: 12px;
   align-content: center;
 }
-ul.favorites{
+#title{
   text-align: center;
+}
+ul.favorites{
+  text-align: left;
 }
 a:link{
   color: blue;
