@@ -11,7 +11,7 @@
   display: inline-block;
   margin: 8px auto;
   padding: 2px;
-  background-color:white;
+  background-color:none;
   width: 80%;
   text-align: center;
   border-radius: 10px;
@@ -22,11 +22,13 @@ img.heading{
 }
 .history{
   margin: 8px auto;
-  background-color: white;
+  background-color:whitesmoke;
   width: 80%;
   padding: 6px 12px 12px;
   text-align: center;
   border-radius: 12px;
+  color:black;
+  font-family: 'Courier New', 'Courier', sans-serif;
 }
 h2.history{
   align-items: center;
@@ -37,13 +39,15 @@ h2.history{
 }
 .members{
   margin: 8px auto;
-  background-color: white;
+  background-color: whitesmoke;
   width: 80%;
   padding: 6px 12px 12px;
   text-align:left;
   border-radius: 12px;
   align-content: left;
-  flex: p;
+}
+img.members{
+  display: flex;
 }
 #bmembers{
   text-align: center;
