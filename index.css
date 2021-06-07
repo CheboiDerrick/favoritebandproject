@@ -32,10 +32,12 @@ img.heading{
 }
 h2.history{
   align-items: center;
+  background-color: blue;
 }
 #hist{
-  color: black;
+  color:yellow;
   font-family: 'Helvetica', 'Courier',sans-serif;
+  background-color: red;
 }
 .members{
   margin: 8px auto;
@@ -67,6 +69,7 @@ img.members{
 }
 #title{
   text-align: center;
+  background-color: blue;
 }
 ul.favorites{
   text-align: left;
