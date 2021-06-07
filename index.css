@@ -51,8 +51,9 @@ h2.history{
   font-family: 'Helvetica','Courier', sans-serif;
   font-style: oblique;
 }
-img.members{
-  display:block;
+#im1,#im2,#im3,#im4{
+  display: inline-block;
+}
 }
 #bmembers{
   text-align: center;
